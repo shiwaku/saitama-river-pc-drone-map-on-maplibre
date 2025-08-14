@@ -18,11 +18,11 @@ const map = new maplibregl.Map({
   container: "map",
   style: "std.json",
   hash: true,
-  zoom: 18.85,
-  center: [139.1143428, 36.0840109],
-  pitch: 20,
+  zoom: 18.31,
+  center: [139.114998, 36.08429],
+  pitch: 67,
   maxPitch: 85,
-  bearing: -105.5,
+  bearing: -137.1,
   attributionControl: false,
 });
 

@@ -56,7 +56,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "raster-opacity": 0.5
+        "raster-opacity": 1
       }
     },
     {
