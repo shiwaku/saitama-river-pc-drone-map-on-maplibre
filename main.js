@@ -160,7 +160,7 @@ map.on("load", () => {
   tile3dLayer1 = new deck.Tile3DLayer({
     id: "tile3dlayer-1",
     pointSize: 1,
-    data: "https://shiworks.xsrv.jp/3dtiles/shizuoka-pc/sunen-substation/tileset.json",
+    data: "https://shi-works.com/3dtiles/shizuoka-pc/sunen-substation/tileset.json",
     loader: Tiles3DLoader,
     onTileLoad: (d) => {
       const { content } = d;
@@ -174,7 +174,7 @@ map.on("load", () => {
   tile3dLayer2 = new deck.Tile3DLayer({
     id: "tile3dlayer-2",
     pointSize: 1,
-    data: "https://shiworks2.xsrv.jp/3dtiles/pref-saitama/river-pointcloud/chichibu-railway-spot/tileset.json",
+    data: "https://shi-works.com/3dtiles/pref-saitama/river-pointcloud/chichibu-railway-spot/tileset.json",
     loader: Tiles3DLoader,
     onTileLoad: (d) => {
       const { content } = d;
